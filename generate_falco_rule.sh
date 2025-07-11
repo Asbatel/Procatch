@@ -79,4 +79,4 @@ EOF
 
 done
 
-echo "Falco rules generated successfully in $RULE_FILE"
+echo "Falco rule generated successfully in $RULE_FILE"
