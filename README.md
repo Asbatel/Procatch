@@ -37,11 +37,11 @@ This repository contains the code for the paper:
 ### 2. Falco Rules
 
 ```bash
-./prepare_falco.sh <pod_baseline> 
+./generate_falco_rule.sh <pod_baseline.json> 
 ```
 
 ### 3. Monitor
 
 ```bash
-falco -r <pod_falco_rules> 
+falco -r <pod_falco_rule.yaml> 
 ```
