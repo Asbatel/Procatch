@@ -95,4 +95,4 @@ done
 
 echo "[+] Pod $POD_NAME is Ready."
 profile_pod "$POD_NAME"
-echo "Execution profile saved to $OUTPUT_FILE"
+echo "Baseline saved to $OUTPUT_FILE"
