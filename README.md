@@ -23,8 +23,8 @@ This repository contains the code for the paper:
 - `kubectl` and `crictl` must be available on the system
 
 > **Note:**  
-> This script is designed for a **single-node Kubeadm setup** using the `containerd` runtime.  
-> In other environments—such as **managed clusters** or setups where the **control plane is not accessible from worker nodes**—the script must be executed **on the worker node** where the target pod is running. You might retrieve pod information externally using the **Kubernetes API server**, or modify the script to **accept the container name or ID as input**, which you can obtain using commands such as `crictl ps`.
+> This script is designed for a **single-node Kubeadm Kubernetes cluster** using the `containerd` runtime.  
+> In other environments—such as **GKE** or setups where the **control plane is not accessible from worker nodes**—the script must be executed **on the worker node** where the target pod is running. You might retrieve pod information externally using the **Kubernetes API server**, or modify the script to **accept the container name or ID as input**, which you can obtain using commands such as `crictl ps`.
 
 
 ## Usage
