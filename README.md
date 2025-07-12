@@ -14,12 +14,12 @@ This repository contains the code for the paper:
 
 ## Overview
 
-**Procatch** is a novel approach to container anomaly detection that requires no training. It builds on the inherently bounded nature of microservices—each designed to perform a narrow, single task—to quickly and reliably detect unexpected behavior.
+**Procatch** is a novel approach to container anomaly detection that requires no training. It builds on the inherently bounded nature of microservices (i.e., each designed to perform a narrow, single task) to quickly and reliably detect unexpected behavior.
 
 
 ## Requirements
 
-- `Falco` must be installed and running
+- `Falco` must be installed
 - `kubectl` and `crictl` must be available on the system
 
 > **Note:**  
