@@ -8,7 +8,7 @@ This repository contains the code for the paper:
 > **Procatch: Detecting Execution-based Anomalies in Single-Instance Microservices**  
 > Asbat El Khairi, Andreas Peter, Andrea Continella  
 > University of Twente, University of Oldenburg  
-> *To appear at [IEEE Conference on Communications and Network Security], 2025*
+> IEEE Conference on Communications and Network Security 2025
 
 ---
 
